@@ -16,7 +16,7 @@ class ProductService:
             self._initialize_sample_data()
     
     def _initialize_sample_data(self):
-        """Initialize with mock data"""
+       
         for product_data in MOCK_PRODUCTS:
             self.create_product(product_data)
     
