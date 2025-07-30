@@ -14,10 +14,13 @@ class Settings:
         "http://localhost:3000", 
         "http://localhost:3001",
         "https://your-frontend-domain.com",
-        "*"  #
+        "*" 
     ]
     
     DEFAULT_ADMIN_USERNAME: str = "admin"
     DEFAULT_ADMIN_PASSWORD: str = "admin123"
+    
+    # Data configuration
+    USE_MOCK_DATA: bool = os.getenv("USE_MOCK_DATA", "true").lower() == "true"
 
 settings = Settings()
