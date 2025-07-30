@@ -2,6 +2,10 @@
 
 This is the backend for the Mini Web Shop project. It is designed to handle user authentication, product management, and database interactions.
 
+### Backend url
+
+https://mini-webshop-backend-2ps2.onrender.com
+
 ## Setup Instructions
 
 1. Clone the repository:
