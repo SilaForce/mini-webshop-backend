@@ -8,35 +8,35 @@ MOCK_PRODUCTS: List[ProductCreate] = [
         name="Laptop HP Pavilion",
         description="High-performance laptop perfect for work and gaming. Intel i7 processor, 16GB RAM, 512GB SSD.",
         price=999.99,
-        image_url="https://via.placeholder.com/400x300?text=Laptop+HP",
+        image_url="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop",
         quantity=10
     ),
     ProductCreate(
         name="Smartphone Samsung Galaxy",
         description="Latest Android smartphone with amazing camera, 128GB storage, and long-lasting battery.",
         price=599.99,
-        image_url="https://via.placeholder.com/400x300?text=Samsung+Phone",
+        image_url="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop",
         quantity=25
     ),
     ProductCreate(
         name="Wireless Headphones Sony",
         description="Premium noise-cancelling wireless headphones with 30-hour battery life.",
         price=199.99,
-        image_url="https://via.placeholder.com/400x300?text=Sony+Headphones",
+        image_url="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
         quantity=15
     ),
     ProductCreate(
         name="Gaming Mouse Logitech",
         description="Professional gaming mouse with RGB lighting and customizable buttons.",
         price=79.99,
-        image_url="https://via.placeholder.com/400x300?text=Gaming+Mouse",
+        image_url="https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=300&fit=crop",
         quantity=30
     ),
     ProductCreate(
         name="Mechanical Keyboard",
         description="RGB mechanical keyboard with blue switches, perfect for gaming and typing.",
         price=129.99,
-        image_url="https://via.placeholder.com/400x300?text=Keyboard",
+        image_url="https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=300&fit=crop",
         quantity=20
     )
 ]
